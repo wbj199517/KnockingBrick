@@ -5,6 +5,7 @@ import Join from './chat-room/component/Join/Join';
 import Chat from './chat-room/component/Chat/Chat';
 import Navigation from './main-page/Navigation';
 import TrackerMainPage from './covid-19-tracker/TrackerMainPage/TrackerMainPage';
+import YoutubeMainPage from './youtube/component/YoutubeMainPage/YoutubeMainPage';
 
 const App = () => (
     <Router>
@@ -12,6 +13,7 @@ const App = () => (
         <Route path="/chat-room/join" exact component={Join} />
         <Route path="/chat-room/chat"  component={Chat} />
         <Route path="/covid-19/"  component={TrackerMainPage} />
+        <Route path="/fake-youtube/" component={YoutubeMainPage}/>
     </Router>
 );
 

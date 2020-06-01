@@ -12,6 +12,10 @@ const Navigation = () => {
         <Link  to={'/covid-19/'}>
         <button>covid-19 tracker</button>
         </Link>
+
+        <Link  to={'/fake-youtube/'}>
+        <button>fake youtube</button>
+        </Link>
         </div>
     )
 }
