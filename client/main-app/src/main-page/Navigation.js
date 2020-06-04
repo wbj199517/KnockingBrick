@@ -16,6 +16,10 @@ const Navigation = () => {
         <Link  to={'/fake-youtube/'}>
         <button>fake youtube</button>
         </Link>
+
+        <Link  to={'/open-table/'}>
+        <button>open table</button>
+        </Link>
         </div>
     )
 }
